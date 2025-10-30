@@ -1,13 +1,14 @@
+
 footer {
   text-align: center;
-  color: #db7093;
+  color: #bdbdbd;
 }
 
 footer a {
   text-decoration: none;
-  color: #c71585;
+  color: #f8bbd0;
 }
 
 footer a:hover {
-  color: #db7093;
+  color: #bdbdbd;
 }

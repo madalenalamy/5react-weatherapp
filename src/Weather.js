@@ -18,6 +18,7 @@ export default function Weather() {
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
       date: new Date(response.data.time * 1000),
+      coordinates: response.data.coordinates
     });
     setReady(true);
   }
@@ -60,7 +61,7 @@ export default function Weather() {
             </div>
           </div>
         </form>
-        <WeatherInfo data={weather} />
+  <WeatherInfo data={weather} />
       </div>
     );
   } else {
