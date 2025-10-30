@@ -1,6 +1,8 @@
 import React from "react";
 import Time from "./Time";
 import WeatherUnits from "./WeatherUnits";
+import WeatherForecast from './WeatherForecast';
+import WeatherIcon from './WeatherIcon';
 
 export default function WeatherInfo(props) {
   return (
